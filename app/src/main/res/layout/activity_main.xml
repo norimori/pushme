@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:onClick="setContentView">
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pushMe"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/button_text"
+        android:textColor="#ffff4a5a"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        android:background="#ff3fc638"
+
+        style="?android:attr/borderlessButtonStyle"
+        android:onClick="incrementPush"
+    />
+
+</RelativeLayout>
